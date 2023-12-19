@@ -1,18 +1,18 @@
-# Terra Docs
+# Station Docs
 
 <div align="center">
   <a href="https://docs.terra.money/">
-    <img src="./static/img/docs_logo.svg" width=500>
+    <img src="station-docs-card.jpg" width=500>
   </a>
 </div>
 
 ---
 
-Welcome to the official documentation for the Terra blockchain. The Terra Docs are an ever-changing compendium of guides and reference material for learning about, developing on, and running the Terra blockchain. 
+Welcome to the official Station documentation. 
 
-To contribute to this documentation, please read the [Code of Conduct](./DOCS_CODE_OF_CONDUCT.md) and the [Terra Docs Style Guide](./DOCS_STYLE_GUIDE.mdx) before opening a pull request. 
 
-The Terra Docs represent years of hard work and upkeep to create industry-leading documentation. Many thanks to all the contributors of this repository. 
+To contribute to this documentation, please read the [Code of Conduct](./DOCS_CODE_OF_CONDUCT.md) and the [Docs Style Guide](./DOCS_STYLE_GUIDE.mdx) before opening a pull request. 
+
 
 ## Setup
 
