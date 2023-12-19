@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://docs.terra.money/">
-    <img src="station-docs-card.jpg" width=500>
+    <img src="twitter-docs-card.png" width=500>
   </a>
 </div>
 
