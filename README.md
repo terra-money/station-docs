@@ -1,7 +1,7 @@
 # Station Docs
 
 <div align="center">
-  <a href="https://docs.terra.money/">
+  <a href="https://docs.station.money/">
     <img src="static/img/twitter-card-docs.png" width=500>
   </a>
 </div>
