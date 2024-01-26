@@ -9,7 +9,7 @@ const homeCards: CardProps[] = [
     summary: 'Click here to learn how to build on Terra.',
   },
   {
-    href: '/learn/station.html',
+    href: '/station.html',
     lightSVG: '/img/icons/station/station.svg',
     darkSVG: '/img/icons/dark/station.svg',
     header: 'Get started with Station',
