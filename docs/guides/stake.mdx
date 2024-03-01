@@ -3,33 +3,212 @@ sidebar_position: 3
 ---
 import Admonition from '@theme/Admonition';
 
-## Stake
+# Stake
 
 You can stake your assets in Station to earn staking rewards. Follow the steps below to learn how to stake. For more information on staking, visit the [Terra Docs](https://docs.terra.money/learn/protocol#staking). 
 
 1. Visit [https://station.money/](https://station.money/) in your browser and connect your Station wallet extension. 
 
 2. In the menu on the left, click **Stake**. 
+
+3. On the Staking page you'll see a list of assets. The stakeable assets that you own will have a blue **Stake** button next to them. To stake an asset, select the asset by clicking the **Stake** button next to the asset you want to stake. 
+
 <img
     className="readme-img-lg"
     src="/img/screens/stake/stake-1.png"
-    alt="stake"
-/>
+    alt="stake" 
+    />
 
-2. On the Staking page you'll see a list of assets. The stakeable assets that you own will have a blue **Stake** button next to them. To stake an asset, select the asset by clicking the **Stake** button next to the asset you want to stake. 
 
-<Admonition type="caution" icon="💰" title="Unstaking periods">
+<Admonition type="caution" icon="💰" title="undelegating periods">
 
-When you stake your assets, you are locking them up in exchange for rewards. STaked assets cannot be traded freely. While you still own the assets you stake, you will not be able to trade them freely until you unstake them and wait for the unstaking period to end. Terra's unstaking period is 21 days, meaning you will have to wait 21 days to receive your Luna after ustaking it. The unstaking period varies depending on the chain the asset is staked to. 
+When you stake your assets, you are locking them up in exchange for rewards. Staked assets cannot be traded freely. While you still own the assets you stake, you will not be able to trade them freely until you udelegate them and wait for the undelegating period to end. Terra's undelegating period is 21 days, meaning you will have to wait 21 days to receive your Luna after undelegating it. The unstaking period varies depending on the chain the asset is staked to. 
+
+You can [redelegate](#redelegate) a staked asset to another validator without having to wait for the unstaking period. 
+
+For more information on staking, visit the [Terra Docs](https://docs.terra.money/learn/protocol#staking). 
 
 </Admonition>
 
+
+## Auto stake
+
+[Manual stake section](#manual-stake)
+
+1. Click **Auto-stake**. 
+
+
 <img
-    className="readme-img-lg"
+    className="readme-img-sm"
     src="/img/screens/stake/stake-2.png"
     alt="stake"
-/>
+    />
 
-3. On the menu located on the left side of the screen, Click **Stake**. 
+2. Enter the amount you would like to stake. Remember, once an asset is staked, you will need to wait until the end of the unstaking period before you can claim it. Click **Confirm**. 
 
-4. 
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/stake-3.png"
+    alt="stake"
+    />
+
+3. Review the transaction in your Station extension and click **Post**. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/stake-4.png"
+    alt="stake"
+    />
+
+## Manual stake 
+
+1. To select a specific validator to stake to, follow the [staking instructions above](#stake). When you get to the Stake Assets page, click the **Manual Stake** option. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/manual-1.png"
+    alt="stake"
+    />
+
+2. Select a validator by clicking on the name of the validator you want to stake your asset to. 
+
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/manual-2.png"
+    alt="stake"
+    />
+
+3. Enter the amount you want to stake and click **Confirm**. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/manual-3.png"
+    alt="stake"
+    />
+
+3. Review the transaction in your Station extension and click **Post**. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/stake-4.png"
+    alt="stake"
+    />
+
+
+## Claim rewards
+
+After staking your assets to a validator, they will start to accrue staking rewards. You can claim your rewards periodically by following the steps below.
+
+1. Visit [https://station.money/](https://station.money/) in your browser and connect your Station wallet extension. 
+
+2. In the menu on the left, click **Stake**. 
+
+3. If you have staked assets that are earning rewards, you will see a button in the top left corner that says **Claim all rewards**. Click the button. 
+
+<img
+    className="readme-img-lg"
+    src="/img/screens/stake/claim-1.png"
+    alt="stake"
+    />
+
+4. Click **Claim** to claim your rewards. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/claim-2.png"
+    alt="stake"
+    />
+
+3. Review the transaction in your Station extension and click **Post**. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/claim-3.png"
+    alt="stake"
+    />
+
+## Manage your staked assets
+
+Follow the steps below to manage your staked assets. 
+
+1. Visit [https://station.money/](https://station.money/) in your browser and connect your Station wallet extension. 
+
+2. In the menu on the left, click **Stake**. 
+
+3. Click the **My Staked Assets** tab to view your delegations. 
+
+<img
+    className="readme-img-lg"
+    src="/img/screens/stake/manage-1.png"
+    alt="stake"
+    />
+
+
+## Undelegate
+
+<Admonition type="caution" icon="💰" title="Undelegating periods">
+
+When you stake your assets, you are locking them up in exchange for rewards. Staked assets cannot be traded freely. While you still own the assets you stake, you will not be able to trade them freely until you undelegate them and wait for the undelegating period to end. Terra's undelegating period is 21 days, meaning you will have to wait 21 days to receive your Luna after undelegating it. The unstaking period varies depending on the chain the asset is staked to. 
+
+You can [redelegate](#redelegate) a staked asset to another validator without having to wait for the unstaking period. 
+
+For more information on staking, visit the [Terra Docs](https://docs.terra.money/learn/protocol#staking). 
+
+</Admonition>
+
+1. Follow the steps above [to manage your staked assets](#manage-your-staked-assets). Click the **Manage** button next to the validator you want to undelegate from. 
+
+<img
+    className="readme-img-lg"
+    src="/img/screens/stake/manage-1.png"
+    alt="stake"
+    />
+
+2. On the validator delegation page, click **Undelegate**. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/manage-2.png"
+    alt="stake"
+    />
+
+3. Enter the amount you want to undelegate and click **Confirm**. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/manage-3.png"
+    alt="stake"
+    />
+
+4. Review and sign the transaction in your Station extension and click **Post**. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/manage-4.png"
+    alt="stake"
+    />
+
+5. Your assets are undelegating. After waiting for the undelegating period to end, return to your staking page in Station to claim your undelegated assets. 
+
+## Redelegate
+
+If you want to move your staked assets from one delegator to another, you can do so without having to wait for the stake to undelegate. Follow the steps below to redelegate assets to another validator. 
+
+1. Follow the steps above [to manage your staked assets](#manage-your-staked-assets). Click the **Manage** button next to the validator you want to undelegate from. 
+
+<img
+    className="readme-img-lg"
+    src="/img/screens/stake/manage-1.png"
+    alt="stake"
+    />
+
+2. On the validator delegation page, click **Redelegate**. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/stake/manage-2.png"
+    alt="stake"
+    />
+
+3. You can either choose to Auto stake or manually stake the amount you want to redelegate. Follow the [Auto stake](#auto-stake) or [manual stake](#manual-stake) instructions to complete your transaction. 
