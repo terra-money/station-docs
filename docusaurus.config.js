@@ -73,7 +73,7 @@ module.exports = async function config() {
     themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
-        image: 'img/docs_card.png',
+        image: 'img/station-docs-card.png',
         docs: {
           sidebar: {
             hideable: false,

@@ -1,47 +1,119 @@
 @font-face {
-  src: url('../../static/fonts/Gotham-Thin_Web.woff2') format('woff2');
-  font-family: 'Gotham';
-  font-weight: 100;
+  font-family: 'Euclid Square';
+  src: url('../../static/fonts/EuclidSquare-Bold.eot');
+  src: local('Euclid Square Bold'), local('EuclidSquare-Bold'),
+      url('../../static/fonts/EuclidSquare-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../../static/fonts/EuclidSquare-Bold.woff2') format('woff2'),
+      url('../../static/fonts/EuclidSquare-Bold.woff') format('woff'),
+      url('../../static/fonts/EuclidSquare-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-  src: url('../../static/fonts/Gotham-XLight_Web.woff2') format('woff2');
-  font-family: 'Gotham';
-  font-weight: 200;
+  font-family: 'Euclid Square';
+  src: url('../../static/fonts/EuclidSquare-Regular.eot');
+  src: local('Euclid Square Regular'), local('EuclidSquare-Regular'),
+      url('../../static/fonts/EuclidSquare-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../static/fonts/EuclidSquare-Regular.woff2') format('woff2'),
+      url('../../static/fonts/EuclidSquare-Regular.woff') format('woff'),
+      url('../../static/fonts/EuclidSquare-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  src: url('../../static/fonts/Gotham-Light_Web.woff2') format('woff2');
-  font-family: 'Gotham';
+  font-family: 'Euclid Square';
+  src: url('../../static/fonts/EuclidSquare-SemiBold.eot');
+  src: local('Euclid Square SemiBold'), local('EuclidSquare-SemiBold'),
+      url('../../static/fonts/EuclidSquare-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../../static/fonts/EuclidSquare-SemiBold.woff2') format('woff2'),
+      url('../../static/fonts/EuclidSquare-SemiBold.woff') format('woff'),
+      url('../../static/fonts/EuclidSquare-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('../../static/fonts/EuclidSquare-LightItalic.eot');
+  src: local('Euclid Square Light Italic'), local('EuclidSquare-LightItalic'),
+      url('../../static/fonts/EuclidSquare-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../static/fonts/EuclidSquare-LightItalic.woff2') format('woff2'),
+      url('../../static/fonts/EuclidSquare-LightItalic.woff') format('woff'),
+      url('../../static/fonts/EuclidSquare-LightItalic.ttf') format('truetype');
   font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {
-  src: url('../../static/fonts/Gotham-Book_Web.woff2') format('woff2');
-  font-family: 'Gotham';
-  font-weight: 400;
-}
-
-@font-face {
-  src: url('../../static/fonts/Gotham-Medium_Web.woff2') format('woff2');
-  font-family: 'Gotham';
+  font-family: 'Euclid Square';
+  src: url('../../static/fonts/EuclidSquare-MediumItalic.eot');
+  src: local('Euclid Square Medium Italic'), local('EuclidSquare-MediumItalic'),
+      url('../../static/fonts/EuclidSquare-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../static/fonts/EuclidSquare-MediumItalic.woff2') format('woff2'),
+      url('../../static/fonts/EuclidSquare-MediumItalic.woff') format('woff'),
+      url('../../static/fonts/EuclidSquare-MediumItalic.ttf') format('truetype');
   font-weight: 500;
+  font-style: italic;
 }
 
 @font-face {
-  src: url('../../static/fonts/Gotham-Bold_Web.woff2') format('woff2');
-  font-family: 'Gotham';
-  font-weight: 700;
+  font-family: 'Euclid Square';
+  src: url('../../static/fonts/EuclidSquare-Medium.eot');
+  src: local('Euclid Square Medium'), local('EuclidSquare-Medium'),
+      url('../../static/fonts/EuclidSquare-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../../static/fonts/EuclidSquare-Medium.woff2') format('woff2'),
+      url('../../static/fonts/EuclidSquare-Medium.woff') format('woff'),
+      url('../../static/fonts/EuclidSquare-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-  src: url('../../static/fonts/Gotham-Black_Web.woff2') format('woff2');
-  font-family: 'Gotham';
-  font-weight: 800;
+  font-family: 'Euclid Square';
+  src: url('../../static/fonts/EuclidSquare-Italic.eot');
+  src: local('Euclid Square Italic'), local('EuclidSquare-Italic'),
+      url('../../static/fonts/EuclidSquare-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../../static/fonts/EuclidSquare-Italic.woff2') format('woff2'),
+      url('../../static/fonts/EuclidSquare-Italic.woff') format('woff'),
+      url('../../static/fonts/EuclidSquare-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-  src: url('../../static/fonts/Gotham-Ultra_Web.woff2') format('woff2');
-  font-family: 'Gotham';
-  font-weight: 900;
+  font-family: 'Euclid Square';
+  src: url('../../static/fonts/EuclidSquare-Light.eot');
+  src: local('Euclid Square Light'), local('EuclidSquare-Light'),
+      url('../../static/fonts/EuclidSquare-Light.eot?#iefix') format('embedded-opentype'),
+      url('../../static/fonts/EuclidSquare-Light.woff2') format('woff2'),
+      url('../../static/fonts/EuclidSquare-Light.woff') format('woff'),
+      url('../../static/fonts/EuclidSquare-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('../../static/fonts/EuclidSquare-SemiBoldItalic.eot');
+  src: local('Euclid Square SemiBold Italic'), local('EuclidSquare-SemiBoldItalic'),
+      url('../../static/fonts/EuclidSquare-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../static/fonts/EuclidSquare-SemiBoldItalic.woff2') format('woff2'),
+      url('../../static/fonts/EuclidSquare-SemiBoldItalic.woff') format('woff'),
+      url('../../static/fonts/EuclidSquare-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('../../static/fonts/EuclidSquare-BoldItalic.eot');
+  src: local('Euclid Square Bold Italic'), local('EuclidSquare-BoldItalic'),
+      url('../../static/fonts/EuclidSquare-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../../static/fonts/EuclidSquare-BoldItalic.woff2') format('woff2'),
+      url('../../static/fonts/EuclidSquare-BoldItalic.woff') format('woff'),
+      url('../../static/fonts/EuclidSquare-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
 }

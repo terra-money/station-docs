@@ -24,7 +24,7 @@
 
 [data-theme='dark'] {
   /* Right side menu colors */
-  --ifm-color-primary: #dbdbdb !important;
+  --ifm-color-primary: #ffffff !important;
   --ifm-color-content-secondary: #88B2FB !important;
   /* Main container background color */
   --ifm-background-color: #212227 !important;
@@ -61,12 +61,12 @@ $next-page-arrow: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox=
 
 /* ================DARK MODE VARIABLES================ */
 
-$dark-primary: #dbdbdb;
+$dark-primary: #ffffff;
 $dark-secondary: #8d8d8d;
 $dark-bg: #212227;
 $menu-cards-bg: #212227;
 $dark-hover-shadow: #96969640;
-$dark-border: #343536;
+$dark-border: #4a4a4a;
 $dark-border-hover: #88B2FB;
 $dark-hyperlink-color: #3673f2;
 $navbar-white: #e3e3e3;
