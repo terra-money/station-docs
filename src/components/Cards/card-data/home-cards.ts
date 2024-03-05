@@ -1,47 +1,64 @@
 import { CardProps } from '../Card';
 
 const homeCards: CardProps[] = [
+
   {
-    href: '/develop/get-started.html',
-    lightSVG: '/img/icons/buildanapp02.svg',
-    darkSVG: '/img/icons/dark/buildanapp02.svg',
-    header: 'Start building',
-    summary: 'Click here to learn how to build on Terra.',
-  },
-  {
-    href: '/learn/station.html',
+    href: '/learn/station/download/station-desktop',
     lightSVG: '/img/icons/station/station.svg',
     darkSVG: '/img/icons/dark/station.svg',
-    header: 'Get started with Station',
-    summary: 'Create a wallet and stake Luna for rewards.',
+    header: 'Download Station',
+    summary: "Download Station wallet.",
   },
   {
-    href: '/develop/which-tools.html',
-    lightSVG: '/img/icons/buildanapp01.svg',
-    darkSVG: '/img/icons/dark/buildanapp01.svg',
-    header: 'Tool guide',
-    summary: 'Not sure which tools to use? Start here.',
+    href: '/learn/station/migration',
+    lightSVG: '/img/icons/migration.svg',
+    darkSVG: '/img/icons/dark/migration.svg',
+    header: 'Migrate to Station',
+    summary: 'Import your wallet into Station.',
   },
   {
-    href: '/develop/terrain/mint-an-nft.html',
-    lightSVG: '/img/icons/mintnft.svg',
-    darkSVG: '/img/icons/dark/mintnft.svg',
-    header: 'Mint an NFT',
-    summary: 'Follow the minting tutorial to mint your own NFT.',
+    href: '/learn/station/wallet.html',
+    lightSVG: '/img/icons/station/wallet.svg',
+    darkSVG: '/img/icons/dark/wallet.svg',
+    header: 'Create a wallet',
+    summary: 'Create and manage a wallet.',
   },
   {
-    href: '/learn/protocol.html',
-    lightSVG: '/img/icons/terra.svg',
-    darkSVG: '/img/icons/dark/terra.svg',
-    header: 'Learn about Terra',
-    summary: 'Learn about Luna, rewards, staking, and governance.',
+    href: 'https://station.terra.money/',
+    lightSVG: '/img/icons/Terrad.svg',
+    darkSVG: '/img/icons/dark/Terrad.svg',
+    header: 'Station WebApp',
+    summary:
+      'Visit the in-browser Station Web App.',
   },
   {
-    href: '/migration-guides.html',
+    href: '/learn/station/networks.html',
     lightSVG: '/img/icons/swap-1.svg',
     darkSVG: '/img/icons/dark/swap-1.svg',
-    header: 'Terra migration guides',
-    summary: 'Move from Terra Classic to the new Terra chain.',
+    header: 'Switch networks',
+    summary: 'Switch between the mainnet, testnet, or LocalTerra.',
+  },
+  {
+    href: '/learn/station/testnet.html',
+    lightSVG: '/img/icons/testnet.svg',
+    darkSVG: '/img/icons/dark/testnet.svg',
+    header: 'Testnet',
+    summary: 'Receive test Luna to carry out transactions on the testnet.',
+  },
+  {
+    href: '/learn/station/staking.html',
+    lightSVG: '/img/icons/core/staking.svg',
+    darkSVG: '/img/icons/dark/staking.svg',
+    header: 'Stake Luna',
+    summary: 'Stake Luna and start earning rewards.',
+  },
+
+  {
+    href: '/learn/station/governance.html',
+    lightSVG: '/img/icons/core/governance_2.svg',
+    darkSVG: '/img/icons/dark/governance_2.svg',
+    header: 'Governance',
+    summary: 'Learn about governance on Terra.',
   },
 ];
 
