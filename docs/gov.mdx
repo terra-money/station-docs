@@ -1,0 +1,98 @@
+---
+sidebar_position: 5
+---
+import Admonition from '@theme/Admonition';
+
+# Governance
+
+Governance is an important part of any Cosmos chain. Governance is the democratic process that allows users and validators to make changes to their chain. To participate in governance, community members submit, vote, and implement proposals. 
+
+## Vote
+
+Community members vote on proposals with their staked assets. One staked asset equals one vote. For more information on voting, visit the [Terra Docs](https://docs.terra.money/learn/protocol#governance)
+
+Follow the steps below to vote on a proposal. Remember, in order to vote, you'll need to [stake](./stake.mdx) some assets. 
+
+1. Visit [https://station.money/](https://station.money/) in your browser and connect your Station wallet extension. 
+
+2. In the menu on the left, click **Governance**. 
+
+3. Use the **All Proposals** dropdown menu and change the filter to **Voting Proposals**. This will only show active proposals that can be voted on. To filter proposals for a specific chain, click on the **All Chains** dropdown menu and select a chain. 
+
+<img
+    className="readme-img-lg"
+    src="/img/screens/gov/vote-1.png"
+    alt="gov"
+/>
+
+4. Click on the proposal you want to vote on. 
+
+5. On the proposal page, read the description of the proposal carefully and decide your vote.
+
+The different voting options are:
+
+    - Yes: In favor.
+    - No: Not in favor.
+    - NoWithVeto: Not in favor, and the proposer's deposit should be burned (used for spam proposals).
+    - Abstain: Voter abstains. Abstain votes count toward meeting Quorum.
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/gov/vote-2.png"
+    alt="gov"
+/>
+
+6. Select your vote from the dropdown on the left, and then click **Confirm**. 
+
+7. Review the transaction in your Station browser extension, and click **Post** to submit your vote. 
+
+## Submit a proposal
+
+Proposals start as ideas within the community and are generally posted to a chain's governance forum before being submitted to the chain. After gaining support and feedback from the community, a proposer drafts and submits a proposal alongside an initial deposit.
+
+The most common proposal types include:
+
+- Text Proposals : To handle issues like directional changes or any decision requiring manual implementation.
+- Parameter Change Proposals: To change the parameters defined in each module.
+- Community PoolSpend Proposals: To spend funds in the community pool.
+
+1. Before posting a governance proposal, make sure you are following the correct governance procedure for the chain you are submitting to. Visit your chain's documentation for specific governance rules. If you post a proposal that fails to meet quorum or gets vetoed, you may lose your deposit. 
+
+2. Visit [https://station.money/](https://station.money/) in your browser and connect your Station wallet extension. 
+
+3. In the menu on the left, click **Governance**. 
+
+4. In the top right corner of the page, click the **Submit Proposal** button. 
+
+<img
+    className="readme-img-lg"
+    src="/img/screens/gov/proposal-1.png"
+    alt="gov"
+/>
+
+5. Select the chain you want to submit your proposal to and select a proposal type. 
+
+6. Create a title and a description for your proposal. Make sure your title and description accurately and succinctly convey the content and purpose of the proposal. 
+
+7. Input any parameters or code needed for your proposal. Community pool spend proposals require an amount and a valid address to send the funds to. For parameter change proposals, you'll need to enter the subspace, key, and value for the parameter you are changing. Text proposals only require text to be submitted for voters to read. 
+
+<img
+    className="readme-img-sm"
+    src="/img/screens/gov/proposal-2.png"
+    alt="gov"
+/>
+
+8. Governance proposals require a deposit in order to enter the voting phase. Enter an amount in the **Initial Deposit** field. 
+
+<Admonition type="caution" icon="🏦" title="Deposits">
+Deposits protect against unnecessary proposals and spam. On most chains, if a proposal fails to meet the minimum deposit amount within the deposit period, the proposal will not enter the voting period, and the deposit will be refunded.
+
+If you don't want to deposit the entire amount required, the proposal can still be submitted. A user can deposit coins to meet the minimum deposit by looking it up under the **Deposit Proposals** filter on the Station Governance page and depositing the appropriate amount.  After the minimum deposit is met, the proposal will enter the voting phase. 
+
+Deposit amounts and period durations vary by chain. Refer to your chain's documentation for information regarding governance parameters. 
+
+</Admonition>
+
+8. Review all the information included in your proposal carefully. After ensuring that everything looks correct, click **Create Proposal**. 
+
+9. Review the transaction in your Station browser extension and click **Post** to submit your proposal. 
