@@ -107,7 +107,7 @@ module.exports = async function config() {
               'aria-label': 'Terra Money',
             },
             {
-              href: 'https://github.com/terra-money/docs',
+              href: 'https://github.com/terra-money/station-docs',
               position: 'right',
               className: 'header-github-link',
               'aria-label': 'GitHub repository',
