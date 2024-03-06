@@ -24,7 +24,7 @@ const homeCards: CardProps[] = [
     summary: 'Create and manage a wallet',
   },
   {
-    href: 'https://station.money/',
+    href: 'https://dashboard.station.money/',
     lightSVG: '/img/icons/Terrad.svg',
     darkSVG: '/img/icons/dark/Terrad.svg',
     header: 'Station Dashboard',
