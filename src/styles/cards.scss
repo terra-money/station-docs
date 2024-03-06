@@ -110,9 +110,9 @@ $font-family_1: 'Euclid Square';
       background-color: $menu-cards-bg;
 
       &:hover {
-        box-shadow: 3px 3px 6px $dark-hover-shadow;
-        transform: scale(1.015);
-        border-color: $dark-hyperlink-color;
+        transform: scale(1.0015);
+        border-color: $dark-primary;
+        background-color: #212227;
       }
     }
   }

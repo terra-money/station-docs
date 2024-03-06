@@ -14,8 +14,8 @@ const socialLinks: SocialLinkProps[] = [
     darkSVG: '/img/icons/dark/links/discord.svg',
   },
   {
-    href: 'https://t.me/TerraNetworkLobby',
-    alt: 'Terra Telegram',
+    href: 'https://t.me/station_wallet',
+    alt: 'Station Telegram',
     lightSVG: '/img/icons/links/telegram.svg',
     darkSVG: '/img/icons/dark/links/telegram.svg',
   },

@@ -112,7 +112,7 @@ li[class*=' theme-doc-sidebar-item-'] {
 }
 
 [data-theme='dark'] .menu {
-  background-color: $menu-cards-bg;
+  background-color: $dark-bg;
   border-color: $dark-border;
 
   .navbar-sidebar__back {

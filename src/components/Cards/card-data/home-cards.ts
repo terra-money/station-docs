@@ -14,7 +14,7 @@ const homeCards: CardProps[] = [
     lightSVG: '/img/icons/migration.svg',
     darkSVG: '/img/icons/dark/migration.svg',
     header: 'Upgrade Station',
-    summary: 'Upgrade your existing wallets',
+    summary: 'Upgrade your accounts',
   },
   {
     href: '/get-started',
@@ -32,21 +32,14 @@ const homeCards: CardProps[] = [
       'Visit the Station Web App',
   },
   {
-    href: '/settings',
+    href: '/settings/switch-networks',
     lightSVG: '/img/icons/swap-1.svg',
     darkSVG: '/img/icons/dark/swap-1.svg',
     header: 'Switch networks',
-    summary: 'Switch between the mainnet, testnet, or LocalTerra.',
+    summary: 'Switch between mainnets and testnets.',
   },
   {
-    href: '/settings',
-    lightSVG: '/img/icons/testnet.svg',
-    darkSVG: '/img/icons/dark/testnet.svg',
-    header: 'Testnet',
-    summary: 'Receive test Luna to carry out transactions on the testnet.',
-  },
-  {
-    href: '/stake',
+    href: '/using/stake',
     lightSVG: '/img/icons/core/staking.svg',
     darkSVG: '/img/icons/dark/staking.svg',
     header: 'Stake',
@@ -54,11 +47,18 @@ const homeCards: CardProps[] = [
   },
 
   {
-    href: '/gov',
+    href: '/using/gov',
     lightSVG: '/img/icons/core/governance_2.svg',
     darkSVG: '/img/icons/dark/governance_2.svg',
     header: 'Governance',
     summary: 'Vote on proposals',
+  },
+  {
+    href: '/integrate/getting-started',
+    lightSVG: '/img/icons/testnet.svg',
+    darkSVG: '/img/icons/dark/testnet.svg',
+    header: 'Integrate',
+    summary: 'Add Station support to your app',
   },
 ];
 

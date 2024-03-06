@@ -69,17 +69,6 @@
   transition: all var(--ifm-transition-fast)
     var(--ifm-transition-timing-default);
 
-  &::before {
-    content: '';
-    background-image: url($white-terra);
-    background-position: center center;
-    background-size: cover;
-    height: 18px;
-    width: 21px;
-    margin-top: -2px;
-    margin-right: 5px;
-  }
-
   &::after {
     content: '';
     background-image: url($white-arrow);
@@ -93,10 +82,6 @@
     background: $navbar-button;
     color: $light-primary;
     box-shadow: inset 0 0 0 1.75px $light-primary;
-  }
-
-  &:hover::before {
-    background-image: url($colorful-terra);
   }
 
   &:hover::after {
@@ -265,8 +250,8 @@
 
     &:hover {
       background-color: $dark-navbar-button-hover;
-      box-shadow: inset 0 0 0 1.75px $dark-hyperlink-color;
-      color: $dark-hyperlink-color !important;
+      box-shadow: inset 0 0 0 1.75px;
+      color: $dark-primary !important;
     }
 
     @media (max-width: 550px) {
