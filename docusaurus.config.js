@@ -100,7 +100,7 @@ module.exports = async function config() {
           },
           items: [
             {
-              href: 'https://station.money', //front-end URL
+              href: 'https://dashboard.station.money', //front-end URL
               position: 'right',
               label: 'Station Dashboard',
               className: 'header-terra-link',
