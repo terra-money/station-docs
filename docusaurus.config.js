@@ -56,7 +56,7 @@ module.exports = async function config() {
             routeBasePath: '/', // Serve the docs at the site's root
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
-            editUrl: 'https://github.com/terra-money/docs/blob/main/',
+            editUrl: 'https://github.com/terra-money/station-docs/blob/main/',
           },
           blog: false,
           theme: {
